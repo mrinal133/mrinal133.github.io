@@ -1,8 +1,9 @@
 ---
 title: "First Post!"
-date: 2024-11-01 00:00:00 +0300
+date: 2025-10-26 00:00:00 +0300
 categories: [First Post!]
 tags: [First Post!]
+math: true
 ---
 
 # Hello World. 
