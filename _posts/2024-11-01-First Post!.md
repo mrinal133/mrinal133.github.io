@@ -7,4 +7,6 @@ tags: [First Post!]
 
 # Hello World. 
 
-This is the first post on my wensite!
+This is the first post on my website!
+$ x + y $
+$ \dfrac{x}{y}$
