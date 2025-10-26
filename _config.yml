@@ -107,6 +107,11 @@ social_preview_image: # string, local or CORS resources
 # boolean type, the global switch for TOC in posts.
 toc: true
 
+math:
+  enable: true
+  provider: "katex"
+
+
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
@@ -192,6 +197,11 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: ""
+      type: posts
+    values:
+      math: true
 
 sass:
   style: compressed
